@@ -1,0 +1,17 @@
+--inserting values into the students table
+insert into students values('24B11CS055','Ankitha'); 
+
+insert into students values('24B11CS215','Peter'); 
+
+---Displaying Data from the  students table
+select * from students;
+
+select name from students;
+
+select * from students9 where rollno='24B11CS055'
+
+--Deleting a row from the table
+delete from students where rollno='24B11CS215'; 
+
+---Updating a row in the table
+ update students set name='Peter' where rollno='24B11CS215';
